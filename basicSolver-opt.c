@@ -24,8 +24,8 @@
 #include <errno.h>
 #include <assert.h>
 
-#include <blake2.h>
-#include <blake2-impl.h>
+#include "BLAKE2/ref/blake2.h"
+#include "BLAKE2/ref/blake2-impl.h"
 
 #define swap(a, b) \
     do { __typeof__(a) __tmp = (a); (a) = (b); (b) = __tmp; } while (0)
