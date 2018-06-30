@@ -2,7 +2,7 @@
 BLAKE2_dir = BLAKE2/sse
 BLAKE2_imp = blake2b.c
 CC         = gcc
-CFLAGS     = -O3 -march=native
+CFLAGS     = -ggdb -march=native
 
 all: basicSolver basicSolver-opt
 
